@@ -26,84 +26,84 @@
     line-height: 2px;
     margin: auto;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .search-google-bar:focus {
     outline: none;
 }
 
-.google-search-buttons {
-    background: rgb(241, 241, 241);
-    color: black;
-    height: 40px;
-    width: 130px;
-    font-family: Arial;
-    font-size: 14px;
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 39%;
-    margin-right: 3px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 16px;
-    padding-right: 16px;
-    line-height: 27px;
-    display: inline-block;
-    transition: 0.1s;
-}
 
-.google-search-buttons-2 {
-    background-color: rgb(241, 241, 241);
-    color: black;
-    height: 40px;
-    width: 150px;
-    font-family: Arial;
-    font-size: 14px;
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.div-google-search-buttons {
+    height: 70px;
+    width: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin: auto;
-    margin-left: 3px;
-    margin-right: 39%;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block
+}
+
+.center-div {
+    height: 70px;
+    width: 360px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.google-search, .im-feeling-lucky {
+    background-color: rgb(230, 230, 230);
+    height: 40px;
+    width: 160px;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     line-height: 27px;
-    display: inline-block;
     transition: 0.1s;
 }
 
-.google-search-buttons:hover {
+.google-search:hover, .im-feeling-lucky:hover {
     border-style: solid;
-    border-color: rgb(177, 177, 177);
     border-width: 1px;
-    box-shadow: 1px   2px   10px  rgba(235, 235, 235, 0.479);
+    border-color: rgba(0, 0, 0, 0.300);
 }
 
-.google-search-buttons:active {
-    background-color: rgb(223, 223, 223);
+.google-search:active, .im-feeling-lucky:active {
+    border-color: rgb(0, 132, 255);
+    border-width: 1.5px;
 }
 
-.google-search-buttons-2:hover {
-    border-style: solid;
-    border-color: rgb(177, 177, 177);
-    border-width: 1px;
-    box-shadow: 1px   2px   10px   rgba(235, 235, 235, 0.479);
+.google-lang {
+    height: 50px;
+    width: 570px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
 }
 
-.google-search-buttons-2:active {
-    background-color: rgb(223, 223, 223);
-}
-
-.google-language {
+.google-offered-in {
+    color: rgb(31, 0, 167);
     font-family: Arial;
     font-size: 14px;
-    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
 }
 
 .hyperlink {
